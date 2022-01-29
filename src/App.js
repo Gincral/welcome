@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import Box from '@mui/material/Box'
+import BGPic from './assets/bg.jpeg'
+import GMBox from './common/gmBox';
 
 function App() {
+  const bgStyle = {
+    height: '100vh',
+    backgroundImage: 'url(' + BGPic + ')',
+    width:'100%',
+    backgroundSize:'100% auto',
+    overflow:'hidden'
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Box sx={bgStyle}>
+      <GMBox>Welcome to my website!</GMBox>
+    </Box>
   );
 }
 
