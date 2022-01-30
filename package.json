@@ -1,6 +1,6 @@
 {
-  "homepage": "https:/gincral.github.io/Welcome",
-  "name": "my-app",
+  "homepage": "https:/gincral.github.io/welcome",
+  "name": "welcome",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,7 +17,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
