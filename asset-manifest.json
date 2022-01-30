@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/gincral.github.io/welcome/static/css/main.abc94584.css",
-    "main.js": "/gincral.github.io/welcome/static/js/main.99cb26f7.js",
-    "static/js/787.2bc4623e.chunk.js": "/gincral.github.io/welcome/static/js/787.2bc4623e.chunk.js",
-    "static/media/bg.jpeg": "/gincral.github.io/welcome/static/media/bg.a62c11a78133d4bf7637.jpeg",
-    "index.html": "/gincral.github.io/welcome/index.html",
-    "main.abc94584.css.map": "/gincral.github.io/welcome/static/css/main.abc94584.css.map",
-    "main.99cb26f7.js.map": "/gincral.github.io/welcome/static/js/main.99cb26f7.js.map",
-    "787.2bc4623e.chunk.js.map": "/gincral.github.io/welcome/static/js/787.2bc4623e.chunk.js.map"
+    "main.css": "/welcome/static/css/main.abc94584.css",
+    "main.js": "/welcome/static/js/main.0605b9a3.js",
+    "static/js/787.2bc4623e.chunk.js": "/welcome/static/js/787.2bc4623e.chunk.js",
+    "static/media/bg.jpeg": "/welcome/static/media/bg.a62c11a78133d4bf7637.jpeg",
+    "index.html": "/welcome/index.html",
+    "main.abc94584.css.map": "/welcome/static/css/main.abc94584.css.map",
+    "main.0605b9a3.js.map": "/welcome/static/js/main.0605b9a3.js.map",
+    "787.2bc4623e.chunk.js.map": "/welcome/static/js/787.2bc4623e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.abc94584.css",
-    "static/js/main.99cb26f7.js"
+    "static/js/main.0605b9a3.js"
   ]
 }
