@@ -11,5 +11,5 @@ export default function GMBox(props) {
         padding:'50px 30px'
     }
 
-    return (<Box style={gmStyle}>{props.children}</Box>)
+    return (<Box sx={{...props.sx,...gmStyle}}>{props.children}</Box>)
 }

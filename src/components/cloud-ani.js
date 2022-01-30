@@ -11,13 +11,22 @@ export default function CloudAni() {
     const animationStyle = {
         position: 'absolute',
         top: '0',
-        width:'100%'
+        width: '100%'
+
+    }
+
+    const gmBoxStyle = {
+        position: 'absolute',
+        top: '30vh',
+        left:'25%',
+        width: '50%',
+        textAlign:'center',
 
     }
     return (
         <Box>
-            <img src={BGPic} style={ bgStyle } />
-            {/* <img src={TopRight} style={animationStyle} /> */}
+            <img src={BGPic} style={bgStyle} />
+            <GMBox sx={gmBoxStyle}>💖💖💖<br/>Nina loves Garrett !!!<br/>Garrett is the best !!<br/>💖💖💖</GMBox>
         </Box>
     );
 }
