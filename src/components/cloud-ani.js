@@ -26,7 +26,7 @@ export default function CloudAni() {
     return (
         <Box>
             <img src={BGPic} style={bgStyle} />
-            <GMBox sx={gmBoxStyle}>💖💖💖<br/>Nina loves Garrett !!!<br/>Garrett is the best !!<br/>💖💖💖</GMBox>
+            <GMBox sx={gmBoxStyle}>💖💖💖<br/>Personal Website under development !!! (too busy with work >:))<br/>Please come back later {'<3'} <br/>💖💖💖</GMBox>
         </Box>
     );
 }
